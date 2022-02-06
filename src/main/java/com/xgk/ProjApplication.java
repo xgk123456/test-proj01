@@ -32,6 +32,7 @@ public class ProjApplication {
         System.out.println(ds.getDriverClassName());
         System.out.println("Test App...");
         System.out.println("Test App git...");
+        System.out.println("Test App git(hot-fix add)...");
     }
 
 }
