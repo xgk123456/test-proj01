@@ -31,6 +31,7 @@ public class ProjApplication {
         System.out.println(ds);
         System.out.println(ds.getDriverClassName());
         System.out.println("Test App...");
+        System.out.println("Test App git...");
     }
 
 }
