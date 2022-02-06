@@ -30,6 +30,7 @@ public class ProjApplication {
         DruidDataSource ds = app.getBean(DruidDataSource.class);
         System.out.println(ds);
         System.out.println(ds.getDriverClassName());
+        System.out.println("Test App...");
     }
 
 }
