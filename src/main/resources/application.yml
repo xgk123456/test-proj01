@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+servers:
+  ipAddress: 127.0.0.1
+  port: 3000
+  timeout: -1
+  serverTimeOut: 3
+  dataSize: 10
+
+
+datasource:
+  driver-class-name: com.mysql.jdbc.driver456
+
+testcase:
+  book:
+    id: ${random.int}
+    ids: ${random.int(10)}    # 10以内
+    type: ${random.int(5,10)} # 5-10
+    name: ${random.value}
+    uuid: ${random.uuid}
+    publishTime: ${random.long}
