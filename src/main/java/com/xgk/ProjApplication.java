@@ -35,6 +35,7 @@ public class ProjApplication {
         System.out.println("Test App git(hot-fix add)...");
         System.out.println("Test App git(master add)...");
         System.out.println("Test App git(hot-fix add02)...");
+        System.out.println("Test App Push Test");
     }
 
 }
