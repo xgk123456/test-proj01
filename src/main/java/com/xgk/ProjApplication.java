@@ -37,6 +37,7 @@ public class ProjApplication {
         System.out.println("Test App git(hot-fix add02)...");
         System.out.println("Test App Push Test");
         System.out.println("Test App Pull Test");
+        System.out.println("Test GitLab Push");
     }
 
 }
